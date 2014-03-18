@@ -10,5 +10,6 @@ public class Game {
 		window.setResizable(false);
 		window.pack();
 		window.setVisible(true);
+		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }
